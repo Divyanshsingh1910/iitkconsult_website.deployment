@@ -1,3 +1,31 @@
+.explore_more{
+    margin-top: 1rem;
+}
+
+.org {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+.org_name {
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2015/07/18/deep-blue-background.jpg');
+    color: white;
+    padding: 2%;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.org_info {
+    background-image: url('https://wallpapercave.com/wp/Vqjr2iR.jpg');
+    color: white;
+    font-size: small;
+    padding: 3%;
+    text-align: center;
+    border-radius: 0px 0px 10px 10px;
+}
+
 /********** Template CSS **********/
 :root {
     --primary: #5B8C51;
@@ -268,7 +296,7 @@
     height: 100%;
     top: 0;
     left: 0;
-    border-radius: 8px;
+    border-radius: 10px;
     overflow: hidden;
     z-index: -1;
 }
