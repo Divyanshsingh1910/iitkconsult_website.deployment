@@ -1,9 +1,9 @@
 /********** Template CSS **********/
 :root {
-    --primary: #5B8C51;
-    --secondary: #EDDD5E;
+    --primary: #0dcaf0;
+    --secondary: #131516;
     --light: #F7F7F7;
-    --dark: #404A3D;
+    --dark: #222831;
 }
 
 .back-to-top {
@@ -101,7 +101,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--light);
 }
 
 .navbar .dropdown-toggle::after {
